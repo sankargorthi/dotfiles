@@ -1,0 +1,10 @@
+.sass-cache/
+
+.idea
+*.ipr
+*.iml
+*.iws
+
+*.*~
+
+.DS_Store

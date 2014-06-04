@@ -1,0 +1,4 @@
+alias ll="ls -alG"
+alias g=git
+alias gi=git
+alias ..="cd .."

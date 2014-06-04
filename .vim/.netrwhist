@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Applications/IntelliJ IDEA 12.app/Contents'
+let g:netrw_dirhist_2='/Users/sgorthi/dev/demo/ms-core'
+let g:netrw_dirhist_3='/Users/sgorthi/dev/demo'
+let g:netrw_dirhist_4='/Users/sgorthi/dev/demo/ms-core'
+let g:netrw_dirhist_5='/Users/sgorthi/dev/demo/ms-core/build'
+let g:netrw_dirhist_6='/Users/sgorthi/dev/demo/ms-core/build/8.5.18'
+let g:netrw_dirhist_7='/Users/sgorthi/dev/demo/ms-core'
+let g:netrw_dirhist_8='/Users/sgorthi/dev/tmp/boilerplate-express/build'
+let g:netrw_dirhist_9='/Users/sgorthi/dev/tmp/boilerplate-express'

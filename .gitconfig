@@ -1,0 +1,44 @@
+[user]
+	name = Sankar Gorthi
+	email = sankar's email id
+[core]
+	excludesfile = ./.gitignore_global
+[color]
+	ui = true
+	branch = true
+[alias]
+#    lol = log --oneline --decorate --graph
+	lol = log --pretty=format:'%C(yellow)%h|%Cred%ad|%Cblue%an|%Cgreen%d %Creset%s' --date=short  --graph
+    st = status -s
+    ls = log --pretty=format:\"%C(yellow)%h%Cred%d %Creset%s%Cblue [%cn]\" --decorate --numstat
+    com = checkout master
+    co = checkout
+    con = checkout -b
+    ci = commit
+    cm = commit -m
+    ca = commit --amend
+    aa = add -A
+    ap = add -p
+    di = diff
+    dc = diff --cached
+    po = push origin
+    fpo = push origin --force
+    pom = push origin master
+    fpom = push origin --force master
+    um = pull origin master
+    us = pull sv master
+    uo = pull origin
+	rls = remote -v
+    pm = rebase master
+    pmi = rebase -i master
+    pi = rebase -i
+    br = branch
+    bra = branch -a
+[push]
+    default = current
+[diff]
+    algorithm = patience
+[credential]
+    helper = store
+[help]
+	autocorrect = 1
