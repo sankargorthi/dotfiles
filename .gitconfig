@@ -2,14 +2,17 @@
 	name = Sankar Gorthi
 	email = sankar's email id
 [core]
-	excludesfile = ./.gitignore_global
+	excludesfile = ~/.gitignore_global
+	ignorecase = false
 [color]
-	ui = true
-	branch = true
+    ui = true
+    branch = true
+[log]
+	decorate = short
 [alias]
-#    lol = log --oneline --decorate --graph
-	lol = log --pretty=format:'%C(yellow)%h|%Cred%ad|%Cblue%an|%Cgreen%d %Creset%s' --date=short  --graph
-    st = status -s
+	lol = log --pretty=format:'%C(yellow)%h|%Cred%ad|%Cblue%an|%C(auto)%d %Creset%s' --date=short  --graph
+	lol2 = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	st = status -s
     ls = log --pretty=format:\"%C(yellow)%h%Cred%d %Creset%s%Cblue [%cn]\" --decorate --numstat
     com = checkout master
     co = checkout
@@ -17,7 +20,8 @@
     ci = commit
     cm = commit -m
     ca = commit --amend
-    aa = add -A
+    aa = add --intent-to-add .
+    ae = add -A
     ap = add -p
     di = diff
     dc = diff --cached
